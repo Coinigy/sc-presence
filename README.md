@@ -60,7 +60,9 @@ module.exports.run = function (worker) {
  Only scpDbhost and scpDbpassword are required
 
 **scpGcWorkerId**
+
 The worker id of the worker that will handle sc-presence garbage collection duties
+
 Default Value: **0**
 
 **scpGcInterval**
