@@ -118,7 +118,8 @@ When a new socket connects, sc-presence will wait this many ms before publishing
 Default Value: **3000**<br/>
 
 **scpUserIdField**<br/>
-The name of the property in the authToken which will be stored in the SCP_user_id field in the database (numeric or string values are ok) <br/>
+The name of the property in the authToken which will be stored in the SCP_user_id field in the database<br/>
+(numeric or string values are ok) <br/>
 Default Value: **"user_id"**<br/>
 
 ##### Example
