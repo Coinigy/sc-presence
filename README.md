@@ -60,31 +60,29 @@ module.exports.run = function (worker) {
  Only scpDbhost and scpDbpassword are required
 
 **scpGcWorkerId**
-
 The worker id of the worker that will handle sc-presence garbage collection duties
-
 Default Value: **0**
 
-**scpGcInterval**
-The interval in number of seconds on which the garbage collection process will run
-Default Value: **60**
+**scpGcInterval**<br/>
+The interval in number of seconds on which the garbage collection process will run<br/>
+Default Value: **60**<br/>
 
-**scpGcThreshold**
-The number of seconds that must pass without an update before the garbage collection process will remove a record
-Default Value: **120**
+**scpGcThreshold**<br/>
+The number of seconds that must pass without an update before the garbage collection process will remove a record<br/>
+Default Value: **120**<br/>
 
-**scpBlockUsercountThreshold**
+**scpBlockUsercountThreshold**<br/>
 The number of seconds sc-presence will wait after startup before starting to publish user count updates.
-This prevents sc-presence from spamming user count updates when the system is restarted and sockets are reconnecting.
-Default Value: **60**
+This prevents sc-presence from spamming user count updates when the system is restarted and sockets are reconnecting.<br/>
+Default Value: **60**<br/>
 
-**scpSCPingsPerUpdate**
-The number of scServer.pingInterval periods that must pass before sc-presence will fire a database update
-Default Value: **6**  
+**scpSCPingsPerUpdate**<br/>
+The number of scServer.pingInterval periods that must pass before sc-presence will fire a database update<br/>
+Default Value: **6**  <br/>
 
-**scpUsercountChannel** 
-The name of the channel on which sc-presence will publish user count updates
-Default Value: **"USERCOUNT"**
+**scpUsercountChannel** <br/>
+The name of the channel on which sc-presence will publish user count updates<br/>
+Default Value: **"USERCOUNT"**<br/>
 
 **scpUsercountType** 
 The type of user count update sc-presence will publish when a user joins or leaves
