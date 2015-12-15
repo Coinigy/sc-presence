@@ -2,12 +2,12 @@
 #### Socket Presence Module for SocketCluster
 
 ## Features
-**Track active users in your SocketCluster based application**
-**Store all active socket data and channel subscriptions across multiple workers or hosts**
-**Built-in garbage collection prunes abandoned or inactive records**
-**Simple to install and use.  Requires only a MySQL db and a single line of code.**
-**Publishes a user count update whenever someone joins or leaves**
-**Works with or without authenticated users**
+**Track active users in your SocketCluster based application**<br/>
+**Store all active socket data and channel subscriptions across multiple workers or hosts**<br/>
+**Built-in garbage collection prunes abandoned or inactive records**<br/>
+**Simple to install and use.  Requires only a MySQL db and a single line of code.**<br/>
+**Publishes a user count update whenever someone joins or leaves**<br/>
+**Works with or without authenticated users**<br/>
 
 
 ## Install
