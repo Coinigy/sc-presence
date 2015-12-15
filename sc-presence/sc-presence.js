@@ -13,7 +13,7 @@ module.exports.scPresenceConfig = {
     scpGcInterval			    : 60, 
     scpGcThreshold			    : 120,
     scpBlockUsercountThreshold	: 60,
-    scpSCPingsPerUpdate         : 5,  
+    scpSCPingsPerUpdate         : 6,  
     scpUsercountChannel		    : "USERCOUNT",
     scpUsercountType            : "USERS",
     scpPresenceChannel			: "_SCPRESENCE",
