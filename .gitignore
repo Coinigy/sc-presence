@@ -1,2 +1,6 @@
 *node_modules/*
 *.dat
+broker.js
+server.js
+worker.js
+sc-presence/sc-presence-setup-mysql.sql

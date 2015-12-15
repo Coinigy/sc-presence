@@ -1,0 +1,24 @@
+{
+  "name": "sc-presence",
+  "description": "Socket Presence Module for SocketCluster",
+  "version": "0.1.0",
+  "contributors": [
+    {
+      "name": "Rob Borden",
+      "email": "rob@coinigy.com"
+    }
+  ],
+  "dependencies": { 
+    "mysql": "1.8.0",
+    "socketcluster": "2.3.x",
+    "socketcluster-client": "2.3.x"
+  },
+  "keywords": [
+    "presence",
+    "socketcluster",
+    "users",
+    "online",
+    "mysql"
+  ],
+  "readmeFilename": "README.md"
+}
