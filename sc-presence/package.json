@@ -1,7 +1,8 @@
 {
   "name": "sc-presence",
   "description": "Socket Presence Module for SocketCluster",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "main": "sc-presence.js",
   "contributors": [
     {
       "name": "Rob Borden",
