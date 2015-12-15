@@ -59,9 +59,9 @@ module.exports.run = function (worker) {
 ## Options 
  Only scpDbhost and scpDbpassword are required
 
-**scpGcWorkerId**
-The worker id of the worker that will handle sc-presence garbage collection duties
-Default Value: **0**
+**scpGcWorkerId**<br/>
+The worker id of the worker that will handle sc-presence garbage collection duties<br/>
+Default Value: **0**<br/>
 
 **scpGcInterval**<br/>
 The interval in number of seconds on which the garbage collection process will run<br/>
@@ -84,42 +84,42 @@ Default Value: **6**  <br/>
 The name of the channel on which sc-presence will publish user count updates<br/>
 Default Value: **"USERCOUNT"**<br/>
 
-**scpUsercountType** 
-The type of user count update sc-presence will publish when a user joins or leaves
-Possible values are: "SUBSCRIPTIONS", "SOCKETS", "USERS"
-Default Value: **"USERS"**
+**scpUsercountType**<br/> 
+The type of user count update sc-presence will publish when a user joins or leaves<br/>
+Possible values are: "SUBSCRIPTIONS", "SOCKETS", "USERS"<br/>
+Default Value: **"USERS"**<br/>
 
-**scpPresenceChannel**
-The name of the channel that sc-presence will register primary socket presence under
-Default Value: **"_SCPRESENCE"**
+**scpPresenceChannel**<br/>
+The name of the channel that sc-presence will register primary socket presence under<br/>
+Default Value: **"_SCPRESENCE"**<br/>
 
-**scpDbhost**
-The host name of the sc-presence db
-Default Value: **None**
+**scpDbhost**<br/>
+The host name of the sc-presence db<br/>
+Default Value: **None**<br/>
 
-**scpDbname**
-The name of the sc-presence db
-Default Value: **"SCPresence"**
+**scpDbname**<br/>
+The name of the sc-presence db<br/>
+Default Value: **"SCPresence"**<br/>
 
-**scpDbTablename**
-The name of the db table where sc-presence data is stored
-Default Value: **"SCPresence_users"**
+**scpDbTablename**<br/>
+The name of the db table where sc-presence data is stored<br/>
+Default Value: **"SCPresence_users"**<br/>
 
-**scpDbuser**
-The name of the db user that will authenticate to the sc-presence db
-Default Value: **"SCP_user"**
+**scpDbuser**<br/>
+The name of the db user that will authenticate to the sc-presence db<br/>
+Default Value: **"SCP_user"**<br/>
 
-**scpDbpassword**
-The password for the db user that will authenticate to the sc-presence db
-Default Value: **None**
+**scpDbpassword**<br/>
+The password for the db user that will authenticate to the sc-presence db<br/>
+Default Value: **None**<br/>
       
-**scpConnectUpdateDelay**
-When a new socket connects, sc-presence will wait this many ms before publishing a user count update. This ensures the socket that connected has time to subscribe to the scpUsercountChannel channel before the user count is published
-Default Value: **3000**
+**scpConnectUpdateDelay**<br/>
+When a new socket connects, sc-presence will wait this many ms before publishing a user count update. This ensures the socket that connected has time to subscribe to the scpUsercountChannel channel before the user count is published<br/>
+Default Value: **3000**<br/>
 
-**scpUserIdField**
-The name of the property in the authToken which will be stored in the SCP_user_id field in the database (numeric or string values are ok) 
-Default Value: **"user_id"**
+**scpUserIdField**<br/>
+The name of the property in the authToken which will be stored in the SCP_user_id field in the database (numeric or string values are ok) <br/>
+Default Value: **"user_id"**<br/>
 
 ##### Example
 ```
