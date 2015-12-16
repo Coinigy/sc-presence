@@ -1,7 +1,7 @@
 {
   "name": "sc-presence",
   "description": "Socket Presence Module for SocketCluster",
-  "version": "0.1.1",
+  "version": "0.1.14",
   "main": "sc-presence.js",
   "contributors": [
     {
@@ -10,9 +10,9 @@
     }
   ],
   "dependencies": { 
-    "mysql": "1.8.0",
-    "socketcluster": "2.3.x",
-    "socketcluster-client": "2.3.x"
+    "mysql": ">=1.8.0",
+    "socketcluster": ">=2.3.x",
+    "socketcluster-client": ">=2.3.x"
   },
   "keywords": [
     "presence",
