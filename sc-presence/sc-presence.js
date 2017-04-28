@@ -110,8 +110,8 @@ module.exports.attach = function (worker, startupConfig, callback) {
         }        
 
         //TRACK A SOCKET'S CHANNEL SUBSCRIPTION WHEN IT SUBSCRIBES TO A NEW CHANNEL
-        worker.scServer.addMiddleware(worker.scServer.MIDDLEWARE_SUBSCRIBE, function (socket, channel, next) {
-            module.exports.subscribeUser(socket, channel, function (err) { if (err) console.log(err); });
+        worker.scServer.addMiddleware(worker.scServer.MIDDLEWARE_SUBSCRIBE, function (req, next) {
+            module.exports.subscribeUser(req.socket, req.channel, function (err) { if (err) console.log(err); });
             next();
         });            
         
